@@ -4,7 +4,7 @@ group :development do
   gem 'sqlite3'
 end
 
-  group :production do
+group :production do
     gem 'pg'
 end
 group :assets do
