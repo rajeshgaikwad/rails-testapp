@@ -9,4 +9,5 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-RailsTestapp::Application.config.secret_key_base = 'f88b997089fc020c760802dd1b9fa090dab92de9145d83c1014257968844195ce00f27c40266adfe8114ea9d356af0ffd850981dd83877da2bfeeb353b378a5e'
+RailsTestapp::Application.config.secret_key_base = '52e0568c595675f80524f23c982da9a295ddf6e050bc9edd678237ad9eb32f6fe2cc222e695d1740ca3564e949b0f6ac114afb788c653dd939b460cdbbbbc582'
+RailsTestapp::Application.config.secret_token = 'Hello'

@@ -8,6 +8,10 @@ end
 group :production do
     gem 'pg'
 end
+gem 'railties'
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'uglifier'
 gem 'jquery-rails'
 gem "unicorn"
 gem "rspec-rails",:group => [:development, :test]
@@ -23,3 +27,8 @@ gem "figaro"
 gem "better_errors",:group => :development
 gem "binding_of_caller",:group => :development
 gem "hub", :require => nil, :group => [:development]
+# add these gems to help with the transition:
+#gem 'protected_attributes'
+#gem 'rails-observers'
+#gem 'actionpack-page_caching'
+#gem 'actionpack-action_caching'

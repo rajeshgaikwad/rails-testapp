@@ -1,4 +1,11 @@
 RailsTestapp::Application.routes.draw do
+  #patch :update_many
+  root :to => "home#index"
+  devise_for :users
+  resources :users
+  # ...
+  # get 'new', to: 'episodes#new'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

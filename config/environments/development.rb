@@ -26,4 +26,12 @@ RailsTestapp::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
+  
+
+  # Remove:
+  # # config.whiny_nils = true
+  # # config.action_dispatch.best_standards_support = :builtin
+  # # config.active_record.mass_assignment_sanitizer = :strict
+  # # config.active_record.auto_explain_threshold_in_seconds = 0.5
+  # # config.assets.compress = false
 end
